@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    
-
     <meta charset="UTF-8" />
 
     <style type="text/css">
@@ -31,10 +29,7 @@
       property="article:modified_time"
       content="2024-03-14T16:01:37+00:00"
     />
-    <meta
-      property="og:image"
-      content="images/imgcover.jpg"
-    />
+    <meta property="og:image" content="images/imgcover.jpg" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1600" />
     <meta property="og:image:type" content="image/jpg" />
@@ -114,7 +109,6 @@
         ]
       }
     </script>
-    
     <!-- / Yoast SEO plugin. -->
 
     <link rel="dns-prefetch" href="//use.fontawesome.com" />
@@ -284,6 +278,12 @@
       id="dce-animations-css"
       href="https://wedding.goodchoice.id/wp-content/plugins/dynamic-content-for-elementor/assets/css/animations.css?ver=2.8.12"
       media="all"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
     <style id="wp-emoji-styles-inline-css">
       img.wp-smiley,
@@ -2287,19 +2287,7 @@
                           </h6>
                         </div>
                       </div>
-                      <div
-                        data-pafe-form-google-sheets-connector="1W2IU_emblfsSLyNWhr6m-Raox_WmeA2tiEjMFynsRRY"
-                        data-pafe-form-google-sheets-connector-clid="255638946588-72o2lnkk7n9nharbj1od6ghi36lsidd3.apps.googleusercontent.com"
-                        data-pafe-form-google-sheets-connector-clis="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"
-                        data-pafe-form-google-sheets-connector-rtok="1//0g9i2L0KohMvLCgYIARAAGBASNwF-L9IrZFqprsd4Aw8sQ1zqYc-rSVdNsYiGg7hZSOBUWP5bpYgne9BJBDJ8hCM5oxW3z5onRKo"
-                        data-pafe-form-google-sheets-connector-field-list='[{"_id":"1e0b815","pafe_form_google_sheets_connector_field_id":"nama","pafe_form_google_sheets_connector_field_column":"A"},{"_id":"67f69bf","pafe_form_google_sheets_connector_field_id":"orang","pafe_form_google_sheets_connector_field_column":"B"},{"_id":"543e86e","pafe_form_google_sheets_connector_field_id":"konfirmasi","pafe_form_google_sheets_connector_field_column":"C"},{"_id":"4725427","pafe_form_google_sheets_connector_field_id":"pesan","pafe_form_google_sheets_connector_field_column":"D"}]'
-                        data-pafe-form-google-sheets-connector-tab="RSVP!"
-                        class="elementor-element elementor-element-6132f5c animated-slow elementor-button-align-stretch wdp-sticky-section-no elementor-widget elementor-widget-form"
-                        data-id="6132f5c"
-                        data-element_type="widget"
-                        data-settings='{"step_next_label":"Next","step_previous_label":"Previous","_animation":"none","button_width":"100","dce_confirm_dialog_enabled":"no","step_type":"number_text","step_icon_shape":"circle","label_icon_size":{"unit":"px","size":"","sizes":[]},"field_icon_size":{"unit":"px","size":"","sizes":[]}}'
-                        data-widget_type="form.default"
-                      >
+                      <div>
                         <div class="elementor-widget-container">
                           <style>
                             /*! elementor-pro - v3.18.0 - 17-01-2024 */
@@ -2624,7 +2612,7 @@
                           <form
                             class="elementor-form"
                             method="post"
-                            name="rsvp-aninda"
+                            name="rsvp-asep-siska"
                           >
                             <input type="hidden" name="post_id" value="50625" />
                             <input
@@ -2659,7 +2647,7 @@
                                 <input
                                   size="1"
                                   type="text"
-                                  name="form_fields[nama]"
+                                  name="nama"
                                   id="form-field-nama"
                                   class="elementor-field elementor-size-sm elementor-field-textual"
                                 />
@@ -2689,7 +2677,7 @@
                                     </svg>
                                   </div>
                                   <select
-                                    name="form_fields[orang]"
+                                    name="tamu"
                                     id="form-field-orang"
                                     class="elementor-field-textual elementor-size-sm"
                                     required="required"
@@ -2715,7 +2703,7 @@
                                       type="radio"
                                       value="Hadir"
                                       id="form-field-konfirmasi-0"
-                                      name="form_fields[konfirmasi]"
+                                      name="kehadiran"
                                     />
                                     <label for="form-field-konfirmasi-0"
                                       >Hadir</label
@@ -2725,7 +2713,7 @@
                                       type="radio"
                                       value="Maaf, saya tidak bisa hadir"
                                       id="form-field-konfirmasi-1"
-                                      name="form_fields[konfirmasi]"
+                                      name="kehadiran"
                                     />
                                     <label for="form-field-konfirmasi-1"
                                       >Maaf, saya tidak bisa hadir</label
@@ -2748,8 +2736,46 @@
                                   </span>
                                 </button>
                               </div>
+                              <div class="my-alert d-none">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="30"
+                                  height="30"
+                                  fill="currentColor"
+                                  class="bi bi-check2-all"
+                                  viewBox="0 0 16 16"
+                                  style="color: #00d084"
+                                >
+                                  <path
+                                    d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0"
+                                  />
+                                  <path
+                                    d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708"
+                                  />
+                                </svg>
+                              </div>
                             </div>
                           </form>
+                          <script>
+                            const scriptURL =
+                              "https://script.google.com/macros/s/AKfycbwpZg-iumo0RgTNrqGm-mttOTOCnQ3PPGS-yj2tzOyRaPg7m5II9CLcKn9sTiKETx0z/exec";
+                            const form = document.forms["rsvp-asep-siska"];
+                            const myalert = document.querySelector(".my-alert");
+
+                            form.addEventListener("submit", (e) => {
+                              e.preventDefault();
+                              fetch(scriptURL, {
+                                method: "POST",
+                                body: new FormData(form),
+                              })
+                                .then((response) =>
+                                  myalert.classList.toggle("d-none")
+                                )
+                                .catch((error) =>
+                                  console.error("Error!", error.message)
+                                );
+                            });
+                          </script>
                         </div>
                       </div>
                     </div>
@@ -3056,7 +3082,7 @@
                           <div class="elementor-gallery__container">
                             <a
                               class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                              href="images/imgcover.jpg"
+                              href="images/imgmom.jpg"
                               data-elementor-open-lightbox="yes"
                               data-elementor-lightbox-slideshow="6a419e82"
                               data-elementor-lightbox-title="imgfix9"
@@ -3064,7 +3090,7 @@
                             >
                               <div
                                 class="e-gallery-image elementor-gallery-item__image"
-                                data-thumbnail="images/imgcover.jpg"
+                                data-thumbnail="images/imgmom.jpg"
                                 data-width="2400"
                                 data-height="1600"
                                 aria-label=""
@@ -3073,7 +3099,7 @@
                             </a>
                             <a
                               class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                              href="images/imgfix6.jpg"
+                              href="images/imgfix6mom.jpg"
                               data-elementor-open-lightbox="yes"
                               data-elementor-lightbox-slideshow="6a419e82"
                               data-elementor-lightbox-title="imgfix6"
@@ -3081,7 +3107,7 @@
                             >
                               <div
                                 class="e-gallery-image elementor-gallery-item__image"
-                                data-thumbnail="images/imgfix6.jpg"
+                                data-thumbnail="images/imgfix6mom.jpg"
                                 data-width="2400"
                                 data-height="1600"
                                 aria-label=""
@@ -3090,15 +3116,15 @@
                             </a>
                             <a
                               class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                              href="images/imgfix7.jpg"
+                              href="images/imgfix10.jpg"
                               data-elementor-open-lightbox="yes"
                               data-elementor-lightbox-slideshow="6a419e82"
-                              data-elementor-lightbox-title="imgfix7"
+                              data-elementor-lightbox-title="imgfix10"
                               data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NTI4NzIsInVybCI6Imh0dHBzOlwvXC93ZWRkaW5nLmdvb2RjaG9pY2UuaWRcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzAzXC9OYWRoaWxhLUdvd2luZGEtQTM3LmpwZyIsInNsaWRlc2hvdyI6IjZhNDE5ZTgyIn0%3D"
                             >
                               <div
                                 class="e-gallery-image elementor-gallery-item__image"
-                                data-thumbnail="images/imgfix7.jpg"
+                                data-thumbnail="images/imgfix10.jpg"
                                 data-width="1600"
                                 data-height="2400"
                                 aria-label=""
@@ -3116,40 +3142,6 @@
                               <div
                                 class="e-gallery-image elementor-gallery-item__image"
                                 data-thumbnail="images/imgfix1.jpg"
-                                data-width="2400"
-                                data-height="1600"
-                                aria-label=""
-                                role="img"
-                              ></div>
-                            </a>
-                            <a
-                              class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                              href="images/imgfix10.jpg"
-                              data-elementor-open-lightbox="yes"
-                              data-elementor-lightbox-slideshow="6a419e82"
-                              data-elementor-lightbox-title="imgfix10"
-                              data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NTI4NjksInVybCI6Imh0dHBzOlwvXC93ZWRkaW5nLmdvb2RjaG9pY2UuaWRcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzAzXC9OYWRoaWxhLUdvd2luZGEtQTQwLmpwZyIsInNsaWRlc2hvdyI6IjZhNDE5ZTgyIn0%3D"
-                            >
-                              <div
-                                class="e-gallery-image elementor-gallery-item__image"
-                                data-thumbnail="images/imgfix10.jpg"
-                                data-width="1600"
-                                data-height="2400"
-                                aria-label=""
-                                role="img"
-                              ></div>
-                            </a>
-                            <a
-                              class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                              href="images/imgfix2.jpg"
-                              data-elementor-open-lightbox="yes"
-                              data-elementor-lightbox-slideshow="6a419e82"
-                              data-elementor-lightbox-title="imgfix2"
-                              data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NTI4NjcsInVybCI6Imh0dHBzOlwvXC93ZWRkaW5nLmdvb2RjaG9pY2UuaWRcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzAzXC9OYWRoaWxhLUdvd2luZGEtQTQyLmpwZyIsInNsaWRlc2hvdyI6IjZhNDE5ZTgyIn0%3D"
-                            >
-                              <div
-                                class="e-gallery-image elementor-gallery-item__image"
-                                data-thumbnail="images/imgfix2.jpg"
                                 data-width="2400"
                                 data-height="1600"
                                 aria-label=""
@@ -3537,8 +3529,8 @@
                                     ketahap lamaran. Ini merupakan Akhir dari
                                     perjalanan pencarian kami masing-masing
                                     sampailah pada tahap kami untuk memulai awal
-                                    cerita kami bersama sebagai keluarga yang In
-                                    Syaa Allah kami yakin untuk membangunnya
+                                    cerita kami bersama sebagai keluarga yang
+                                    Insyaa Allah kami yakin untuk membangunnya
                                     bersama. Semoga langkah kami selalu
                                     diberkahi dan diridhakan oleh Allah SWT.
                                   </p>
@@ -3732,14 +3724,17 @@
                                     data-id="gb-majesty5"
                                   >
                                     <div class="comment-form-container">
-                                      <form id="post-guestbook-box">
+                                      <form
+                                        id="post-guestbook-box"
+                                        name="ucapandoa"
+                                      >
                                         <div class="guestbook-label">
                                           <label class=""> Nama: </label>
                                         </div>
                                         <input
                                           class="form-control"
                                           type="text"
-                                          name="guestbook-name"
+                                          name="nama"
                                           placeholder="..."
                                           required
                                         />
@@ -3752,7 +3747,7 @@
                                         <textarea
                                           class="form-control"
                                           rows="3"
-                                          name="guestbook-message"
+                                          name="ucapan"
                                           placeholder="..."
                                           required
                                         ></textarea>
@@ -3764,7 +3759,57 @@
                                             Send
                                           </button>
                                         </div>
+                                        <div class="my-alerta d-none">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="30"
+                                            height="30"
+                                            fill="currentColor"
+                                            class="bi bi-check2-all"
+                                            viewBox="0 0 16 16"
+                                            style="color: #00d084"
+                                          >
+                                            <path
+                                              d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0"
+                                            />
+                                            <path
+                                              d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708"
+                                            />
+                                          </svg>
+                                        </div>
                                       </form>
+                                      <script>
+                                        const scriptURLl =
+                                          "https://script.google.com/macros/s/AKfycbxR5jN8z3VH2Sc-BjIpX9BKh4XQdpcK6mfqDbycVHZIACpGTubGldORmOEHETXtk-aY3Q/exec";
+                                        const forml =
+                                          document.forms["ucapandoa"];
+                                        const myalerta =
+                                          document.querySelector(".my-alerta");
+
+                                        forml.addEventListener(
+                                          "submit",
+                                          (e) => {
+                                            e.preventDefault();
+                                            fetch(scriptURLl, {
+                                              method: "POST",
+                                              body: new FormData(forml),
+                                            })
+                                              .then(
+                                                (response) =>
+                                                  myalerta.classList.toggle(
+                                                    "d-none"
+                                                  ),
+                                                forml.reset()
+                                              )
+                                              .catch((error) =>
+                                                console.error(
+                                                  "Error!",
+                                                  error.message
+                                                )
+                                              );
+                                          }
+                                        );
+                                      </script>
                                     </div>
 
                                     <div
@@ -3772,33 +3817,20 @@
                                       style="display: none"
                                     ></div>
 
-                                    <div class="guestbook-list">
+                                    <!-- <div class="guestbook-list">
                                       <div class="user-guestbook">
                                         <div></div>
                                         <div class="guestbook">
-                                          <a class="guestbook-name">tes</a
-                                          ><span class="wdp-confirm"
-                                            ><i class="fas fa-check-circle"></i>
+                                          <a class="guestbook-name">tes</a>
+                                          <span class="wdp-confirm">
+                                            <i class="fas fa-check-circle"></i>
                                           </span>
                                           <div class="guestbook-message">
                                             yey
                                           </div>
                                         </div>
                                       </div>
-
-                                      <div class="user-guestbook">
-                                        <div></div>
-                                        <div class="guestbook">
-                                          <a class="guestbook-name">hhh</a
-                                          ><span class="wdp-confirm"
-                                            ><i class="fas fa-check-circle"></i>
-                                          </span>
-                                          <div class="guestbook-message">
-                                            hhh
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+                                    </div> -->
                                   </div>
                                 </div>
                               </div>
@@ -4938,9 +4970,19 @@
                 data-widget_type="heading.default"
               >
                 <div class="elementor-widget-container">
-                  <p class="elementor-heading-title elementor-size-default">
-                    Nama Tamu
-                  </p>
+                  <p
+                    class="elementor-heading-title elementor-size-default"
+                    id="tamu"
+                  ></p>
+                  <script>
+                    const urlParams = new URLSearchParams(
+                      window.location.search
+                    );
+                    const nama = urlParams.get("nama");
+
+                    const namaContainer = document.querySelector("#tamu");
+                    namaContainer.innerText = nama;
+                  </script>
                 </div>
               </div>
               <div
